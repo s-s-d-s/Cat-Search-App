@@ -1,0 +1,9 @@
+<div class="cats-cards-content">
+  <mat-card class="cat-card"
+            *ngFor="let cat of (catsSubject | async)">
+    <img mat-card-image
+         class="cat-photo"
+         [src]="cat.url"
+         [alt]="'page.home.catsCards.imageAlt' | translate">
+  </mat-card>
+</div>

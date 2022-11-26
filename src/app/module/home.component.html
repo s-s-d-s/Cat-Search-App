@@ -1,0 +1,21 @@
+<div class="cats-search-layout">
+  <mat-toolbar class="top-bar"
+               color="primary">
+    <span>{{ "page.home.title" | translate }}</span>
+  </mat-toolbar>
+
+  <div class="user-interaction-section">
+    <form-field-input (changed)="onPhotoLimitChanged($event)"></form-field-input>
+
+    <search-input (selected)="onBreedSelected($event)"></search-input>
+
+    <button mat-raised-button
+            class="search-button"
+            color="primary"
+            (click)="searchCats()">
+      {{ "page.home.searchButton" | translate }}
+    </button>
+  </div>
+
+  <cats-cards [catsSubject]="catsSubject"></cats-cards>
+</div>

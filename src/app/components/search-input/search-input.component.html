@@ -1,0 +1,10 @@
+<mat-form-field class="cat-breed-select"
+                appearance="fill">
+  <mat-label>{{ 'page.home.searchInput.label' | translate }}</mat-label>
+  <mat-select [formControl]="selectedBreed">
+    <mat-option *ngFor="let breed of catsBreedSelectItems"
+                [value]="breed.value">
+      <span>{{ breed.name }}</span>
+    </mat-option>
+  </mat-select>
+</mat-form-field>

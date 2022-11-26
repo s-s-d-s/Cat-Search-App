@@ -1,0 +1,17 @@
+.cats-search-layout {
+  .top-bar {
+    display: flex;
+    justify-content: center;
+  }
+
+  .user-interaction-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+
+    .search-button {
+      min-height: 56px;
+      margin-left: 10px;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+<mat-form-field class="photo-limit-input"
+                appearance="fill">
+  <mat-label>{{ 'page.home.formFieldInput.label' | translate }}</mat-label>
+  <input matInput
+         type="number"
+         [formControl]="photoLimit"
+         [placeholder]="'page.home.formFieldInput.placeholder' | translate">
+  <mat-error *ngIf="photoLimit.errors">{{ photoLimit.errors.message }}</mat-error>
+</mat-form-field>

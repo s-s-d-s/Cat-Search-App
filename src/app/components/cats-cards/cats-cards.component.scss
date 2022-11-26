@@ -1,0 +1,19 @@
+.cats-cards-content {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: wrap;
+
+  .cat-card {
+    margin: 2px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 2px solid #1144EF;
+    border-radius: 20px;
+
+    .cat-photo {
+      object-fit: cover;
+      width: 100%;
+      height: 100%;
+    }
+  }
+}

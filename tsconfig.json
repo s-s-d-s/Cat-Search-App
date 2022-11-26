@@ -7,8 +7,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
-    "noPropertyAccessFromIndexSignature": true,
-    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitReturns": false,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
     "declaration": false,
@@ -22,7 +22,33 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "@app/custom-typings/*": [
+        "src/custom-typings/*"
+      ],
+      "@app/environment": [
+        "src/environments/environment.ts"
+      ],
+      "@app/constants/*": [
+        "src/app/constants/*"
+      ],
+      "@app/model/*": [
+        "src/app/model/*"
+      ],
+      "@app/services/*": [
+        "src/app/services/*"
+      ],
+      "@app/resolvers/*": [
+        "src/app/resolvers/*"
+      ],
+      "@app/module/*": [
+        "src/app/module/*"
+      ],
+      "@app/validators/*": [
+        "src/app/validators/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,

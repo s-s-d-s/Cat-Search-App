@@ -1,0 +1,27 @@
+{
+  "page": {
+    "home": {
+      "title": "CatSearch",
+      "searchButton": "Search Cats",
+      "catsCards": {
+        "imageAlt": "Cute cat"
+      },
+      "formFieldInput": {
+        "label": "Photo limit",
+        "placeholder": "Enter cats photo limit"
+      },
+      "searchInput": {
+        "label": "Select cats breed"
+      }
+    }
+  },
+  "catBreedValues": {
+    "all": "All Breeds"
+  },
+  "errors": {
+    "validation": {
+      "required": "This field is required",
+      "aboveZero": "Number must be more than 0"
+    }
+  }
+}
