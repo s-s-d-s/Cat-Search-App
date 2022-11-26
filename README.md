@@ -6,7 +6,7 @@ This project use [TheCatApi](https://docs.thecatapi.com/)
 
 #### API_KEY
 
-This variable should contain `x-api-key` from [TheCatApi](https://docs.thecatapi.com/). It's needed for to get more than 10 cats images, and additional fields
+This variable should contain `x-api-key` from [TheCatApi](https://docs.thecatapi.com/). It's needed to get more than 10 cats images, and additional fields
 
 #### API_URL
 
