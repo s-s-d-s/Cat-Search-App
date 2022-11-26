@@ -47,6 +47,9 @@
       ],
       "@app/validators/*": [
         "src/app/validators/*"
+      ],
+      "@app/interceptors/*": [
+        "src/app/interceptors/*"
       ]
     }
   },

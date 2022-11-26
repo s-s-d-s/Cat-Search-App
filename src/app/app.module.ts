@@ -11,7 +11,7 @@ import { AppRoutingModule } from "./app-routing.module";
 import { HomeModule } from "@app/module/home.module";
 import { SpinnerService } from "@app/services/spinner.service";
 import { SpinnerModule } from "./components/spinner/spinner.module";
-import { SpinnerInterceptor } from "./interceptors/spinner.interceptor";
+import { SpinnerInterceptor } from "@app/interceptors/spinner.interceptor";
 
 const createTranslateLoader = (http: HttpClient): TranslateHttpLoader => {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
