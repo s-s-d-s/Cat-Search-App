@@ -7,7 +7,9 @@
   <div class="user-interaction-section">
     <form-field-input (changed)="onPhotoLimitChanged($event)"></form-field-input>
 
-    <search-input (selected)="onBreedSelected($event)"></search-input>
+    <search-input class="cats-search-input"
+                  (selected)="onBreedSelected($event)">
+    </search-input>
 
     <button mat-raised-button
             class="search-button"
